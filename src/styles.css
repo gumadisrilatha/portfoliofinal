@@ -1,0 +1,231 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+body {
+  background-color: antiquewhite;
+}
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
+.about-h1 {
+  font-family: var(--heading-font-family);
+}
+.about-h3 {
+  font-family: var(--default-font-family);
+  padding-top: 0;
+  font-weight: normal;
+}
+.about-p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: var("Playfair Display", serif);
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.main {
+  text-align: center;
+  background: antiquewhite;
+  padding: 160px 20px;
+}
+.main p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.4;
+}
+.main h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: #272142;
+}
+.btn-branding {
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  line-height: 27px;
+  background: green;
+}
+.btn-branding-outline {
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px 30px;
+  line-height: 27px;
+  border: 1px solid black;
+  background: green;
+}
+.description {
+  padding: 120px 60px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 26px;
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+.save-image {
+  padding-top: 126px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+.content h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1;
+  margin: 20px 0 0;
+}
+.content-container {
+  padding: 80px 20px;
+}
+.content {
+  margin: 20px;
+  text-align: center;
+  padding: 0;
+}
+.content p {
+  font-size: 17px;
+}
+.content p a:hover {
+  color: green;
+}
+nav {
+  padding: 20px 0px;
+}
+.nav-name {
+  font-size: 20px;
+  max-width: 150px;
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: #6c63ff;
+}
+nav li.active a {
+  color: var(--branding-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .mail-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+}
+footer .mail-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0px;
+}
+foooter .contact-box p {
+  margin: 0;
+}
+footer .social-links a {
+  margin: 0px 20px;
+  color: var(--secondary-color);
+  background: green;
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .main {
+    padding: 80px 20px;
+  }
+  .description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    padding: 60px;
+    text-align: center;
+  }
+  .planet-image {
+    width: 300px;
+    text-align: center;
+  }
+  .weather-image {
+    width: 300px;
+    text-align: center;
+  }
+  .dictionary-image {
+    width: 300px;
+    text-align: center;
+  }
+  .translation-image {
+    width: 300px;
+    text-align: center;
+  }
+  .my-image {
+    width: 50px;
+    text-align: center;
+  }
+}
